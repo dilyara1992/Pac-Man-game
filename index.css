@@ -5,7 +5,7 @@ html, body {
 
 .grid{
     width: 420px;
-    /* height: 420px; */
+    height: 420px;
     background-color: aquamarine;
     border: solid 2px black;
     display: flex;
@@ -17,4 +17,20 @@ html, body {
     height: 15px;
     background-color: pink;
 
+}
+
+.pac-dot{
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall{
+    background-color: blue;
+    border-radius: 7.5px;
+}
+
+.pac-man{
+    background-color: yellow;
+    border-radius: 7.5px;
 }
