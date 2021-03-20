@@ -6,7 +6,6 @@ html, body {
 .grid{
     width: 420px;
     height: 420px;
-    background-color: aquamarine;
     border: solid 2px black;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +14,7 @@ html, body {
 .grid div {
     width: 15px;
     height: 15px;
-    background-color: pink;
+    /* background-color: pink; */
 
 }
 
@@ -26,11 +25,20 @@ html, body {
 }
 
 .wall{
-    background-color: blue;
-    border-radius: 7.5px;
+    background-color: palevioletred;
+}
+
+.power-pellet{
+    background-color: green;
+    border-radius:7.5px;
 }
 
 .pac-man{
-    background-color: yellow;
+    background-color: orange;
     border-radius: 7.5px;
+    border:none;
 }
+
+/* .ghost-lair{
+    background-color: red;
+} */
