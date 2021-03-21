@@ -42,3 +42,28 @@ html, body {
 /* .ghost-lair{
     background-color: red;
 } */
+
+.pac-man, .blinky, .pinky, .inky, .clyde, .scared-ghost{
+    border: none;
+}
+
+.blinky{
+    background-color: red;
+  
+}
+
+.pinky{
+    background-color: plum;
+}
+
+.inky{
+    background-color: blue;
+}
+
+.clyde{
+    background-color: orange;
+}
+
+.scared-ghost{
+    background-color: aqua;
+}
